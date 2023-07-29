@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navbar-height: 59;
+}
+#navbar{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(40, 127, 159);
+}
+#logo{
+  margin: 10px 34px;
+  
+}
+#logo img{
+  height: 13px;
+  margin:0px 0px;
+ border-radius: 25px;
+}
+#navbar{
+    position: relative;
+}
+#navbar ul{
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seri; 
+}
+
+ #navbar ul li{
+     list-style: none;
+     font-size: 1.3rem;
+    
+ }
+ #navbar::before{
+   content:"" ; 
+  background-color: darkgoldenrod;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity:0.4;
+}
+ #navbar ul li a{
+   position: relative;
+     color: black;
+     display: block;
+     padding: 10px 20px;
+     border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: cyan;
+}
+#navbar ul1{padding-left: 430px;}
+
+#home{
+  display ;
+  flex-direction: column;
+  padding: 3px 200px;
+  
+  justify-content: center;
+  align-items: center;
+  font
+}
+
+#home::before{
+  content:"" ;
+  background: url('../ww.jpg') no-repeat center center /cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity:0.89;
+  
+
+}
+.services-container{
+  padding: 233px;
+  
+}
+#services{
+
+  margin : 34px;
+  display: flex;
+}
+#services .box{
+  border:2px solid brown;  
+  padding: 1px; 
+  margin: 3px 6px;
+  border-radius: 33px;
+  background-color: rgb(114, 114, 231);
+}
+#services .box img{
+   height: 156px;
+    
+   margin: auto;
+   display: block;
+}
+.h-primary{
+  
+  font-size: 2.8rem;
+  padding: 18px;
+}
+.h-secondary{
+  font-size: 2.8rem;
+  padding: 18px;
+}
+#home h1{
+  color: red;
+  text-align: center;
+  font: size 1.5rem;
+  padding: bottom 500px;;
+}
+
+.btnst{
+  padding: 6px 20px;
+  border: 2px solid rgb(11, 0, 128);
+  background-color: rgb(18, 106, 153);
+  color: rgb(255, 255, 255);
+  margin: 8px;
+  font-size: 0.8rem;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.btntcr{
+  padding: 6px 20px;
+  border: 2px solid #200080;
+  background-color: rgb(18, 106, 153);
+  color: rgb(255, 255, 255);
+  margin: 17px;
+  font-size: 0.8rem;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.btn:hover{
+  color: rgb(26, 132, 194);
+  background-color:black;
+}
+.p1{
+
+  color: rgb(44, 91, 78);
+  font-size: 1.5rem;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.center{
+  text-align: center;
+}
